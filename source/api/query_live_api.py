@@ -9,6 +9,7 @@ import requests
 import json
 # import pprint
 
+#definindo um dicionario que é a pessoa para fazer a predição, com os nomes das colunas do modelo
 person = {
         "age": 46,
         "workclass": 'Private',
@@ -26,8 +27,10 @@ person = {
         "native_country": 'United-States'
     }
 
+#o servidor passamos, no caso é localhost
 url = "http://127.0.0.1:8000"
 #url = "https://high-income-app.herokuapp.com"
+#passa o endereço que é o /predict
 response = requests.post(f"{url}/predict",
                          json=person)
 

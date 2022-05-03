@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-04-30T23:16:42.159785",
+    "startedAt": "2022-04-30T23:16:39.621034",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "source/api",
+        "-vv",
+        "-s"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\tayna\\anaconda3\\envs\\colab2deploy\\Scripts\\pytest-script.py",
+    "codePath": "..\\anaconda3\\envs\\colab2deploy\\Scripts\\pytest-script.py",
+    "git": {
+        "remote": "https://github.com/tayarruda113/colab2mlops.git",
+        "commit": "5902ac60c284b7289775f68c6551c7819a4f9ecf"
+    },
+    "email": "arruda.camara.113@ufrn.edu.br",
+    "root": "C:/Users/tayna/colab2mlops",
+    "host": "DESKTOP-RAOBTTB",
+    "username": "tayna",
+    "executable": "C:\\Users\\tayna\\anaconda3\\envs\\colab2deploy\\python.exe"
+}

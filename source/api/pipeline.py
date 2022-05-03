@@ -3,6 +3,9 @@ Creator: Ivanovitch Silva
 Date: 16 April 2022
 Define classes used in the pipeline
 """
+
+#o mesmo codigo do pipeline que usamos no colab
+
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import StandardScaler

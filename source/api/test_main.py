@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 import os
 import sys
 import pathlib
+#aqui é onde esta o nosso arquivo
 from source.api.main import app
 
 # Instantiate the testing client with our app.
