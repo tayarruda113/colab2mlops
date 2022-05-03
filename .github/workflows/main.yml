@@ -29,6 +29,7 @@ jobs:
           python-version: 3.8
       
       - name: Install dependences
+      #a partir do arquivo requirements vai instalar todos os pacotes que rodamos local
         run: pip install --upgrade pip && pip install -r requirements.txt
           
       - name: Login in wandb
